@@ -1,0 +1,58 @@
+.postcard {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-right: 50px;
+  }
+  
+  .postcard h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #0093d3;
+  }
+  
+  .postcard label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .postcard input,
+  .postcard textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .postcard textarea {
+    height: 200px;
+  }
+  
+  .postcard button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #0093d3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .postcard button:hover {
+    background-color: #0072a8;
+  }
+  
+  .postcard .error {
+    color: red;
+    font-size: 1.2em;
+    margin: 10px 0;
+  }

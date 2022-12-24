@@ -1,0 +1,51 @@
+.show-postcard {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .show-postcard h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #0093d3;
+  }
+  
+  .show-postcard .sender-info,
+  .show-postcard .receiver-info {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }
+  
+  .show-postcard .sender-info {
+    text-align: left;
+  }
+  
+  .show-postcard .receiver-info {
+    text-align: right;
+  }
+  
+  .show-postcard .image-container {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .show-postcard .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .show-postcard .note {
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
