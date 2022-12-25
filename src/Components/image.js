@@ -8,7 +8,7 @@ function Image() {
   const [result,setresult]=useState([]);
   const [selectedImage,setselectedImage]=useState('');
   const Config = new Configuration({
-    apiKey :"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"
+    apiKey :"Your-Api-key"
   }
   )
   const openai =new OpenAIApi(Config);
