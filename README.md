@@ -1,70 +1,39 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Product Engineer Case Study: Postcard.bond 1
+🎴
+Product Engineer Case Study:
+Postcard.bond
+You are a junior web developer at Postcard.bond, a platform that allows users to create
+and send physical postcards to other users. The platform charges a fee of $3 per
+postcard.
+Your team has been working on a new feature that allows users to customize the
+images on their postcards by adding a prompt. The platform uses a machine learning
+model to generate a selection of images based on the prompt. Users have the option to
+generate up to 6 free images, and can pay an additional fee to generate more if they are
+not satisfied with the options.
+You have been tasked with implementing this feature.
+Prompt
+Implement the new image customization feature for Postcard.bond.
+Requirements
+The feature should allow users to add a prompt when creating a postcard.
+Product Engineer Case Study: Postcard.bond 2
+The platform should use a machine learning model to generate a selection of
+images based on the prompt.
+Users should have the option to generate up to 6 free images.
+Users should have the option to pay an additional fee to generate more images if
+they are not satisfied with the options.
+The feature should be implemented using the ReactJS framework for the frontend,
+and Node.js with Express for the backend.
+The feature should use a MongoDB database to store user and order data.
+Deliverables
+A working prototype of the feature.
+Additional Notes
+Consider the following questions when implementing the feature:
+How will the prompt be entered by the user?
+How will the machine learning model be used to generate the images?
+How will the generated images be displayed to the user?
+How will the user be able to select the desired image?
+How will the additional image generation fee be implemented?
+How will the user be notified of the additional image generation fee?
+To complete this case study, you will need to set up a development environment and
+implement the feature according to the requirements. You should also consider testing
+the feature to ensure it is working as expected.
