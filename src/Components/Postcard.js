@@ -14,7 +14,7 @@ const Postcard = () => {
   const [selectedImage,setselectedImage]=useState('');
   const [num,setnum]=useState(6);
   const Config = new Configuration({
-    apiKey :"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"
+    apiKey :"API-KEY-YOUR"
   }
   )
   const openai =new OpenAIApi(Config);
