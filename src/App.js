@@ -8,6 +8,7 @@ import Postcard from './Components/Postcard';
 import Profile from './Components/Profile';
 import ShowPostcard from './Components/ShowPostcard';
 import Signup from './Components/Signup';
+import Image from './Components/image';
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       <Route  path="/show" element={<ShowPostcard/>} />
       <Route  path="/profile" element={<Profile/>} />
       <Route  path="/postcard" element={<Postcard/>} />
+      <Route path='/img' element={<Image/>}/>
+      
         
      
       </Routes>
